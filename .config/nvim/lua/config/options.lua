@@ -13,3 +13,6 @@ vim.api.nvim_create_autocmd("FileType", {
 -- Set relative line numbers
 vim.opt.number = true;
 vim.opt.relativenumber = true;
+
+-- Set scroll offset
+vim.opt.scrolloff = 8;
